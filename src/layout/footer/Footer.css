@@ -1,0 +1,95 @@
+.footer {
+    background-color: hsl(233, 26%, 24%);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-links {
+    display: flex;
+    margin-top: 65px;
+    gap: 100px;
+}
+
+.footer-logo {
+    margin-top: 65px;
+    gap: 50px;
+    display: grid;
+}
+
+.uls {
+    list-style-type: none;
+    display: grid;
+}
+
+.footer-btn {
+    margin-top: 65px;
+}
+
+.footer-icons {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.icon-ftr {
+    cursor: pointer;
+}
+
+.lis {
+    height: 20px;
+    color: hsl(233, 8%, 62%);
+    cursor: pointer;
+}
+
+.lis:hover {
+    color: hsl(136, 65%, 51%);
+}
+
+.request-btn {
+    margin-top: 33px;
+    background: linear-gradient(90deg, #79e14f, #54d8f5);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.request-btn:hover {
+    background: linear-gradient(90deg, #54d8f5, #79e14f);
+}
+
+svg.facebook-icon:hover path:hover {
+    cursor: pointer;
+    fill: hsl(136, 65%, 51%);
+}
+
+
+@media (max-width: 440px) {
+    .footer-container {
+        display: grid;
+    }
+    .footer-logo {
+        margin-top: 40px;
+        gap: 30px;
+    }
+    .footer-links {
+        display: grid;
+        margin-top: 1px;
+        gap: 20px;
+        text-align: center;
+    }
+    .uls {
+        gap: 20px;
+    }
+    .footer-btn {
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+}

@@ -1,0 +1,120 @@
+.section-one {
+    background-color: hsl(220, 16%, 96%);
+}
+.why {
+    font-weight: 300;
+    color: hsl(233, 26%, 24%);
+    padding-top: 80px;
+}
+.section-paragraph {
+    color: hsl(233, 8%, 62%);
+    line-height: 1.3;
+}
+.section {
+    left: 130px;
+    position: relative;
+    display: grid;
+    gap: 70px;
+}
+.h-two {
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+}
+.p-two {
+    color: hsl(233, 8%, 62%);
+}
+.grids {
+    display: grid;
+    gap: 20px;
+}
+.flexs {
+    display: flex;
+    gap: 27px;
+    margin-bottom: 50px;
+}
+.why-section {
+    display: grid;
+    gap: 20px;
+}
+.why-br {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+.me {
+    display: flex;
+}
+.mine {
+    display: none;
+}
+ 
+@media (max-width: 1121px) {
+    .section {
+        left: 60px;
+    }
+    .flexs {
+        gap: 27px;
+        display: grid;
+    }
+    .destop-small {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 842px) {
+    .flexs {
+        display: grid;
+    }
+    .grids {
+        line-height: 1.6;
+        text-align: center;
+    }
+    .mobile-img {
+        display: flex;
+        justify-self: center;
+    }
+    .p-two {
+        width: 90%;
+    }
+    .section {
+        left: 40px;
+    }
+}
+
+@media (max-width: 440px) {
+    .section {
+        left: 0;
+    }
+    .why-br {
+        display: flex;
+    }
+    .me-ii {
+        display: none;
+    }
+    .mine {
+        display: flex;
+    }
+    .section-paragraph {
+        line-height: 1.6;
+    }
+    .why-section {
+        text-align: center;
+        position: relative;
+    }
+    .flexs {
+        display: grid;
+    }
+    .mobile-img {
+        display: flex;
+        justify-self: center;
+    }
+    .grids {
+        line-height: 1.6;
+        text-align: center;
+    }
+    .p-two {
+        width: 100%;
+    }
+}

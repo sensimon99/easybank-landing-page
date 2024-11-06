@@ -1,0 +1,99 @@
+.hero-main {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.hero {
+    left: 130px;
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-image: url(../../assets/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 70%;
+}
+
+.header-one {
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    line-height: 1.1;
+}
+
+.first-paragraph {
+    color: hsl(233, 8%, 62%);
+    line-height: 1.3;
+}
+
+.first-hero {
+    display: grid;
+    gap: 30px;
+    padding: 120px 0;
+}
+
+.me {
+    position: absolute;
+    right: 0;
+    top: -132px;
+    width: 50%;
+}
+
+.mockups-div {
+    margin-top: 10px;
+}
+.desktop {
+    display: none;
+}
+
+
+@media (max-width: 1121px) {
+    .hero {
+        background-position: 440px;
+        left: 60px;
+    }
+
+    .me {
+        right: -55px;
+    }
+    .first-paragraph {
+        width: 40%;
+    }
+}
+
+@media (max-width: 842px) {
+    .first-paragraph {
+        width: 50%;
+    }
+    .hero {
+        left: 40px;
+    }
+}
+
+@media (max-width: 440px) {
+    .hero {
+        left: 0px;
+        background-image: url(../../assets/bg-intro-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100%;
+        display: block;
+    }
+    .me {
+        position: absolute;
+        right: 0;
+        top: -150px;
+        width: 50%;
+        width: 95%;
+    }
+
+    .first-hero {
+        padding-top: 450px;
+        display: grid;
+        text-align: center;
+        padding-bottom: 90px;
+    }
+    .first-paragraph {
+        line-height: 1.7;
+        width: 100%;
+    }
+}
